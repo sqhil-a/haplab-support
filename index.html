@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="HapLab support site.">
+    <title>HapLab Support</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="site-header" aria-label="HapLab support">
+        <a class="brand" href="#top" aria-label="HapLab Support">
+          <span class="mark" aria-hidden="true"></span>
+          <span>HapLab</span>
+        </a>
+        <nav class="nav" aria-label="Page sections">
+          <a href="#help">Help</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <section id="top" class="hero">
+        <p class="eyebrow">Support</p>
+        <h1>Minimal haptic testing for iOS developers.</h1>
+        <p class="lede">
+          HapLab lets you preview iOS haptics on device, compare feedback types, and copy implementation snippets for your app.
+        </p>
+        <div class="action-row">
+          <a class="button primary" href="mailto:sahilambegaonkar@gmail.com?subject=HapLab%20Support">Email Support</a>
+          <a class="button" href="#help">View FAQ</a>
+        </div>
+      </section>
+
+      <section id="help" class="content-grid" aria-label="Help topics">
+        <article class="panel">
+          <h2>Haptics do not play</h2>
+          <p>
+            Test on a physical iPhone. Haptics may not play in Simulator, on unsupported hardware, or when system haptics are disabled.
+            Check Settings, Sounds & Haptics, then confirm System Haptics is enabled.
+          </p>
+        </article>
+
+        <article class="panel">
+          <h2>Some patterns feel subtle</h2>
+          <p>
+            iOS haptics are intentionally tuned by hardware and system settings. Some feedback types are soft by design,
+            especially selection changes and lighter impact styles.
+          </p>
+        </article>
+
+        <article class="panel">
+          <h2>Exporting code</h2>
+          <p>
+            Tap a haptic to preview it. Press and hold a haptic to open export options, choose a language or framework,
+            then copy the generated snippet.
+          </p>
+        </article>
+
+        <article class="panel">
+          <h2>Clipboard access</h2>
+          <p>
+            HapLab writes to the clipboard only when you copy an export snippet. It does not read your clipboard.
+          </p>
+        </article>
+
+        <article class="panel">
+          <h2>Best testing setup</h2>
+          <p>
+            Use the actual device class your app targets. Haptic strength and character can vary by iPhone model and system settings.
+          </p>
+        </article>
+
+        <article class="panel">
+          <h2>Feature requests</h2>
+          <p>
+            Send feedback for missing frameworks, export formats, or haptic patterns. Short examples help prioritize what to add next.
+          </p>
+        </article>
+      </section>
+
+      <section id="contact" class="contact-section" aria-label="Contact">
+        <p class="eyebrow">Contact</p>
+        <h2>Need help with HapLab?</h2>
+        <p>
+          Email <a href="mailto:sahilambegaonkar@gmail.com?subject=HapLab%20Support">sahilambegaonkar@gmail.com</a>.
+          Include your iPhone model, iOS version, and what you expected to happen.
+        </p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
